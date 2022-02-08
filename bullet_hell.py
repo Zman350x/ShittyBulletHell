@@ -12,7 +12,7 @@ import pygame, math, time, random
 pygame.init()
 
 screen = pygame.display.set_mode((500, 500), flags=pygame.SCALED|pygame.RESIZABLE)
-pygame.display.set_caption("Moving Block")
+pygame.display.set_caption("Bullet Hell")
 clock = pygame.time.Clock()
 
 LIGHT_GRAY = 200,200,200
